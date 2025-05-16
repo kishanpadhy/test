@@ -1,0 +1,103 @@
+ *
+ {
+  padding: 0;
+  margin: 0;
+ }
+ body
+ {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+   background-color:#F8E7F6;
+ }
+ .wrapper input
+ {
+  display: inline-block;
+ }
+ .wrapper
+ {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  align-items:center ;
+  
+  border-radius: 10px;
+  color: white;
+  background-color:#547792;
+ }
+.wrapper h1
+{
+  display: flex;
+  justify-content:center ;
+  position: relative;
+  top:0px;
+  font-weight: 700;
+  
+}
+.user input
+{
+  height: 21px;
+  width: 200px;
+  border: 2px solid rgb(240, 242, 246);
+  border-radius: 10px;
+  margin: 5px;
+  
+}
+.pass input
+{
+  height: 21px;
+  width: 200px;
+  border: 2px solid rgb(249, 246, 242);
+  border-radius: 10px;
+  margin: 5px;
+   
+}
+.forgot input
+{
+  position: relative;
+  right: 10px;
+}
+.forgot a
+{
+  position: relative;
+  left: 10px;
+  text-decoration: none;
+  color: white;
+}
+.butt button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 7px;
+  background-color: #F5F5F5;
+}
+.register
+{
+  display: flex;
+  justify-content: center;
+}
+#p2
+{
+  font-weight: 600;
+}
+.wrapper:hover
+{
+  border: 5px solid #F564A9;
+}
+.user:hover
+{
+  border: 2px solid #EBD3F8;
+}
+.pass:hover
+{
+  border: 2px solid #EBD3F8;
+}
+ 
